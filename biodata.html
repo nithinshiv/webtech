@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    form {
+      border: 2px solid #000;
+      background-color: #fff;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+      width: 300px;
+      
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h1>BIO-DATA</h1>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+
+    <label for="number">Number</label>
+    <input type="number" name="number" id="number">
+
+    <label for="email">Email ID</label>
+    <input type="email" name="email" id="email">
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="dob" id="dob">
+
+    <label for="address">Address</label>
+    <input type="text" name="address" id="address">
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
